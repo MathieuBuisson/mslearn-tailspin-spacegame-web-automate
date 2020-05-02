@@ -14,7 +14,7 @@
         "adminPassword": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/53e77d8e-c18b-4040-846b-282ed557ee9a/resourceGroups/az400/providers/Microsoft.KeyVault/vaults/tailspin-vault-18523"
+                    "id": "/subscriptions/53e77d8e-c18b-4040-846b-282ed557ee9a/resourceGroups/az4002/providers/Microsoft.KeyVault/vaults/tailspin-vault-18521"
                 },
                 "secretName": "adminPassword"
             }
@@ -22,7 +22,7 @@
         "firstRun": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/53e77d8e-c18b-4040-846b-282ed557ee9a/resourceGroups/az400/providers/Microsoft.KeyVault/vaults/tailspin-vault-18523"
+                    "id": "/subscriptions/53e77d8e-c18b-4040-846b-282ed557ee9a/resourceGroups/az4002/providers/Microsoft.KeyVault/vaults/tailspin-vault-18521"
                 },
                 "secretName": "firstRun"
             }
