@@ -142,7 +142,7 @@ stages:
           - task: SqlAzureDacpacDeployment@1
             displayName: Generate schema change script
             inputs:
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'az400'
               authenticationType: 'server'
               serverName: 'tailspin-space-game-sql-dev-$(uniqueSuffix).database.windows.net'
               databaseName: 'tailspindatabase'
@@ -219,7 +219,7 @@ stages:
           - task: SqlAzureDacpacDeployment@1
             displayName: 'Deploy SQL schema'
             inputs:
-              azureSubscription: 'Resource Manager - Tailspin - Space Game'
+              azureSubscription: 'az400'
               authenticationType: 'server'
               serverName: 'tailspin-space-game-sql-dev-$(uniqueSuffix).database.windows.net'
               databaseName: 'tailspindatabase'
