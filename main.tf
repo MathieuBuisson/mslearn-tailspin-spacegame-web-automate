@@ -5,8 +5,12 @@ terraform {
   }
 }
 
+provider "azurerm" {
+  features {}
+}
+
 variable "resource_group_name" {
-  default = "tailspin-space-game-rg"
+  default     = "az4002"
   description = "The name of the resource group"
 }
 
@@ -15,12 +19,12 @@ variable "resource_group_location" {
 }
 
 variable "app_service_plan_name" {
-  default = "tailspin-space-game-asp"
+  default     = "tailspin-space-game-asp"
   description = "The name of the app service plan"
 }
 
 variable "app_service_name_prefix" {
-  default = "tailspin-space-game-web"
+  default     = "tailspin-space-game-web"
   description = "The beginning part of your App Service host name"
 }
 
